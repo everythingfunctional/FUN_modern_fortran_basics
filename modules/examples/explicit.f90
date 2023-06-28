@@ -1,5 +1,19 @@
 program implicit
-    integer :: nth, fib, i, fibonacci
+    implicit none (type, external)
+
+    interface
+        function fibonacci(nth) result(fib)
+            implicit none
+            integer, intent(in) :: nth
+            integer :: fib
+        end function
+        subroutine show(i, fib)
+            implicit none
+            integer, intent(in) :: i, fib
+        end subroutine
+    end interface
+
+    integer :: nth, fib, i
 
     print *, "How many Fibonacci numbers would you like?"
     read(*,*) nth
