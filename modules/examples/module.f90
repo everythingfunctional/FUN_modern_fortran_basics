@@ -19,7 +19,7 @@ contains
     end subroutine
 end module
 
-program implicit
+program modules
     use utils
 
     implicit none (type, external)

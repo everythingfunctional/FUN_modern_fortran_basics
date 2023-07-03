@@ -1,4 +1,4 @@
-program implicit
+program explicit
     implicit none (type, external)
 
     interface

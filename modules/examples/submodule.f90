@@ -15,7 +15,7 @@ module utils
     end interface
 end module
 
-program implicit
+program submodules
     use utils
 
     implicit none (type, external)
