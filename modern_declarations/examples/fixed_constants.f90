@@ -1,7 +1,7 @@
 module constants
     implicit none
 
-    real, parameter :: pi = acos(-1)
+    real, parameter :: pi = acos(-1.)
 contains
     subroutine be_sneaky
         print *, "I can't break your geometry now"
