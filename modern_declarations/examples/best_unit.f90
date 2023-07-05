@@ -1,4 +1,4 @@
-program bad_unit
+program best_unit
     implicit none
     integer :: the_unit
     call open_the_file(the_unit)

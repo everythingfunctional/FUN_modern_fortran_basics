@@ -1,4 +1,4 @@
-program bad_unit
+program ok_unit
     implicit none
     integer, parameter :: the_unit = 9
     call open_the_file

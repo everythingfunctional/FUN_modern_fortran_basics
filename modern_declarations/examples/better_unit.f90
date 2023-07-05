@@ -1,4 +1,4 @@
-program bad_unit
+program better_unit
     implicit none
     integer :: the_unit
     the_unit = 9
