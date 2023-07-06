@@ -29,7 +29,7 @@ contains
                 next_prime = next_prime + 1
             end do
         end do
-        primes(1:num_primes) = pack([(i, i = 2,up_to)], is_prime)
+        primes = pack([(i, i = 2,up_to)], is_prime)
     end subroutine
 
     subroutine calc_squares(primes, squares)
